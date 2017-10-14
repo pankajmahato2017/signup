@@ -1,0 +1,159 @@
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<title>This is Web Desinging</title>
+		<script>
+		function formValidation(){
+			//alert('ok');
+			var name =document.getElementById('first_name');
+			var email =document.getElementById('email');
+			var password =document.getElementById('password');
+			var Cpassword=document.getElementById('Confirm password')
+			if(name.value=='')
+			{
+				alert('please enter your name');
+				name.focus();
+				return false;
+			}
+			else if(email.value==''){
+				alert('enter your email');
+				email.focus();
+				return false;
+			}
+			else if(password.value==''){
+				alert('enter your password');
+				password.focus();
+				return false;
+			}else if(Cpassword.value=='') {
+						alert('Enter your Confirm password');
+						Confirm password.focus();
+						return false;
+					}
+				}
+			
+	
+		</script>
+	</head>
+	<body>
+		<div class="main_div">
+			<div class="second_div">
+			<h1 class="hading"><i class="fa fa-user-o" aria-hidden="true"></i> Sign Up </h1>
+			</div>
+				<div class="name_div">
+					<div class="table_div">
+						<p class="text">Name</p>
+					</div>
+				
+					<div class="right_div">
+						<input class="Entername" type="text" id="first_name" placeholder="Enter Name">
+					</div>
+				</div>
+
+					<div style="clear">
+					</div>
+				<div class="name_div">
+					<div class="table_div">
+						<p class="text">E-Mail</p>
+					</div>
+				
+					<div class="right_div">
+						<input class="Entername" type="text" id="email" placeholder="Enter E-Mail";>
+					</div>
+				</div>
+				<div style="clear">
+				</div>
+				
+				<div class="name_div">
+					<div class="table_div">
+						<p class="text">Passward</p>
+					</div>
+				
+					<div class="right_div">
+						<input class="Entername"type="password" id="password" placeholder="Enter Passward";>
+					</div>
+				</div>
+					<div style="clear">
+					</div>
+					
+				<div class="name_div">
+					<div class="table_div">
+						<p class="text">Confirm Passward</p>
+					</div>
+				
+					<div class="right_div">
+						<input class="Entername"type="password" id="Confirm password" placeholder="Enter Confirm Passward";>
+					</div>
+				</div>
+					<div style="clear">
+					</div>
+					
+				<div class="name_div">
+					<div class="table_div">
+						<p class="text">Parsent Address</p>
+					</div>
+				
+					<div class="right_div">
+						<textarea class="Parsent_div" placeholder="Enter Address"></textarea>
+					</div>
+				</div>
+					<div style="clear">
+					</div>
+					
+				<div class="name_div">
+				     <div class="table_div">
+				         <p class="text"> Parmanent Address</p>
+				     </div>
+				
+				     <div class="right_div">
+				          <textarea class="Parsent_div" placeholder="Enter parmanent Address";></textarea>
+				      </div>
+				</div>
+				<div style="clear">
+				</div>
+				
+				<div class="name_div">
+				     <div class="table_div">
+				         <p class="text">Gander</p>
+				     </div>
+				
+				      <div class="right_div">
+				          <input class="gender_div" type="radio" name="gender" value="male"> Male
+						  <input class="gender_div" type="radio" name="gender" value="female"> Female
+				      </div>
+				</div>
+					<div style="clear">
+					</div>
+				<div class="name_div">
+				     <div class="table_div">
+				         <p class="text">Subjects</p>
+				     </div>
+				
+				      <div class="right_div">
+				          <input class="checkbox_div" type="checkbox" name="c" value="language"> C language
+						  <input class="checkbox_div" type="checkbox" name="c++"value="language"> C++
+						  <input class="checkbox_div" type="checkbox" name="java"value="language">Java
+						  <input class="checkbox_div" type="checkbox" name="all"value="language">All
+				      </div>
+				</div>
+					<div style="clear">
+					</div>
+					<div class="name_div">
+				     <div class="table_div">
+				         <p class="text">File</p>
+				     </div>
+				
+				     <div class="right_div">
+				          <input class="file_div" type="file">
+				      </div>
+				</div>
+				<div style="clear"> 
+				</div>
+				<div class="last_div"> 
+					  <input class="submit_div" type="button" id="submit" name="submit" value="Submit" onclick="return formValidation()">
+					  <input class="button_div" type="button" value="Reset">
+			     </div> 
+		</div>	
+
+	</body>
+</html>

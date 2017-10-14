@@ -1,0 +1,98 @@
+.main_div
+{
+width:50%;
+height:auto;
+border:1px solid black;
+margin:0px auto;
+background:#00ffed;
+}
+.second_div
+{
+width:100%;
+height:60px;
+display:table;
+}
+.hading
+{
+text-align:center;
+margin:0px;
+vertical-align:middle;
+font-size:25px;
+background:skyblue;
+}
+.name_div
+{
+width:100%;
+height:90px;
+}
+.table_div
+{
+width:45%;
+height:90px;
+display:table;
+float:left;
+margin-left: 19px;
+}
+.text
+{
+vertical-align:middle;
+display:table-cell;
+}
+.right_div
+{
+width:45%;
+height:90px;
+float:right;
+}
+.entername
+{
+	width:90%;
+	padding:10px;
+	margin-top:25px;
+	margin-left: 19px;
+}
+.Parsent_div
+{
+	width:90%;
+	padding:10px;
+	height:70px;
+	margin-top:10px;
+	resize:none;
+	margin-left: 19px;
+}
+.gender_div
+{
+	margin-top: 34px;
+	margin-left:25px;
+}
+.checkbox_div
+{
+	margin-top:34px;
+	margin-left:25px;
+}
+.file_div
+{
+	margin-top:34px;
+	margin-left:25px;
+}
+.last_div
+{
+	width:100%;
+	height:90px;
+	text-align:center;
+	float:left;
+	background-color:green;
+}
+.button_div
+{
+	margin-top:34px;
+}
+.subimt_div
+{
+	margin-left:20px;
+}
+.hading i
+{
+color: white;
+size: 10px
+}
